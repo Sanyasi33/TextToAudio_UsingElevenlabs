@@ -46,6 +46,16 @@
             border: 1px solid #f5c6cb;
             color: #721c24;
         }
+        .chat-input-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-text {
+            font-size: 15px;
+            color: #6c757d;
+            margin-left: auto;
+        }
     </style>
 </head>
 <body>
@@ -66,7 +76,10 @@
                 <label for="fileLocation" class="form-label">File Location</label>
                 <input type="text" class="form-control" id="fileLocation" name="fileLocation" value="C:\Sahu\MP3_Files">
             </div>
-            <button type="submit" class="btn btn-submit">Convert to Audio</button>
+            <div class="chat-input-container">
+                <button type="submit" class="btn btn-submit">Convert to Audio</button>
+                <div class="footer-text">Developed by Mr. Sahu</div>
+            </div>
         </form>
 
         <!-- Display messages -->
